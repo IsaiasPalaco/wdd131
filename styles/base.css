@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    font-family: "Roboto", system-ui;
+}
+
+h1 {
+    background-color: #786976;
+    font-family: 'Anton';
+    color: #AEED9A;
+    display:flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #9B8C75;
+}
+
+nav a {
+    padding: 5px;
+    font-weight: 600;
+    color: #000000;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.card {
+    margin: 20px;
+    position: relative;
+}
+
+section img {
+    max-width: 200px;
+    height: auto;
+}
+
+h2 {
+    background-color: #786976;
+}
