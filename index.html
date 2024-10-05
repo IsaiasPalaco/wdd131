@@ -6,7 +6,8 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Isaías Palaço</title>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals by Isaías Palaço">
     <meta name="author" content="Isaías Palaço">
-    <link rel="stylesheet" href="styles\base.css">  
+    <link rel="stylesheet" href="styles\base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,22 +19,28 @@
             <a href="#">Final Project</a>
         </nav>
     </header>
-    <main>
+    <main class="grid-container">
         <section class="card">
             <h2>About me</h2>
-            <img src="images\profile.jpg" alt="">
-            <p>
-                My name is Isaías De Walter Paulo Palaço. I am currently a Peer Advisor for BYU-Pathway Worldwide, assisting students with course planning and troubleshooting technical issues. I handle advising tickets, ensuring professional and accurate communication via email and video calls, and escalate technical problems when necessary. My background includes advanced skills in customer service, data analysis, and web and computer programming, with experience teaching foundational computer skills and auditing genealogical data. I am proficient in Portuguese and English, and I possess strong organizational skills and graphic design experience. My education in Web and Computer Programming at BYU-Idaho have equipped me with a solid foundation in programming, web development, and effective team collaboration.
-            </p>
-            <h3>Tete, Mozambique</h2>
-            <img src="images\flag-of-mozambique.jpg" alt="Official flag of Mozambique">
-            <p>
-                Mozambique is a scenic country located in southeastern Africa, known for its rich natural resources and cultural diversity. It has a tropical climate and an extensive coastline along the Indian Ocean, which offers some of Africa’s best natural harbors and beautiful white sand beaches. The capital city is Maputo.
-            </p>
+            <div class="inside">
+                <div class="described">
+                    <img class="profile" src="images\profile.jpg" alt="">
+                    <p>
+                        My name is Isaías De Walter Paulo Palaço. I am currently a Peer Advisor for BYU-Pathway Worldwide, assisting students with course planning and troubleshooting technical issues. I handle advising tickets, ensuring professional and accurate communication via email and video calls, and escalate technical problems when necessary. My background includes advanced skills in customer service, data analysis, and web and computer programming, with experience teaching foundational computer skills and auditing genealogical data. I am proficient in Portuguese and English, and I possess strong organizational skills and graphic design experience. My education in Web and Computer Programming at BYU-Idaho have equipped me with a solid foundation in programming, web development, and effective team collaboration.
+                    </p>
+                </div>
+                <div class="country">
+                    <h3>Tete, Mozambique</h2>
+                    <img src="images\flag-of-mozambique.jpg" alt="Official flag of Mozambique">
+                    <p>
+                        Mozambique is a scenic country located in southeastern Africa, known for its rich natural resources and cultural diversity. It has a tropical climate and an extensive coastline along the Indian Ocean, which offers some of Africa’s best natural harbors and beautiful white sand beaches. The capital city is Maputo.
+                    </p>
+                </div>
+            </div>
         </section>
         <section class="card">
             <h2>Web Dev Resources</h2>
-            <ul>
+            <ul class="myList">
                 <li><a href="#">Dev.to Community</a></li>
                 <li><a href="#">CSS Tricks Magazine</a></li>
                 <li><a href="#">Smashing Magazine</a></li>
@@ -43,9 +50,8 @@
         </section>
     </main>
     <footer>
-        <p>
-            ©<span id="currentyear"></span> 🚀 Isaías De Walter Paulo Palaço 🚀 Mozambique
-        </p>
+        <p>©<span id="currentyear"></span> 🚀 Isaías De Walter Paulo Palaço 🚀 Mozambique</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>

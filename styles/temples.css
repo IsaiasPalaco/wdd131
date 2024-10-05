@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: blueviolet;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+h1 {
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+nav {
+    align-content: center;
+}
+
+nav a {
+    color: aliceblue;
+    justify-items: end;
+    padding: 10px;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+article img {
+    width: 100%;
+}
+
+footer {
+    background-color: blueviolet;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}

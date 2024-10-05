@@ -12,19 +12,20 @@ body {
     font-family: "Roboto", system-ui;
 }
 
+
 h1 {
-    background-color: #786976;
+    background-color: #2033c3;
     font-family: 'Anton';
-    color: #AEED9A;
+    color: #ffffff;
     display:flex;
     justify-content: center;
-    padding: 5px;
+    padding: 3px;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #9B8C75;
+    background-color: #f9ad3b;
 }
 
 nav a {
@@ -37,9 +38,38 @@ nav a:hover {
     color: #ffffff;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    text-align: center;
+}
+
 .card {
-    margin: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.country {
+    margin-top: 33px;
+}
+
+.inside {
+    padding: 20px;
+}
+
+.described {
+    display: flex;
+    align-items: center;
+}
+
+.described img {
+    display: flex;
+    float: right;
     position: relative;
+    max-width: 130px;
 }
 
 section img {
@@ -47,6 +77,42 @@ section img {
     height: auto;
 }
 
+header {
+    margin-bottom: 50px;
+}
 h2 {
     background-color: #786976;
+    color: #ffffff;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 3px;
+}
+
+.myList {
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 200px;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    background-color: #786976;
+    font-family: 'Anton';
+    color: #AEED9A;
+    display:flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+footer p {
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer span {
+    font-weight: bold;
 }
