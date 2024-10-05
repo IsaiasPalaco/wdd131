@@ -69,11 +69,12 @@ nav a:hover {
     display: flex;
     float: right;
     position: relative;
-    max-width: 130px;
+    max-width: 120px;
+    padding-right: 10px;
 }
 
 section img {
-    max-width: 200px;
+    max-width: 160px;
     height: auto;
 }
 
