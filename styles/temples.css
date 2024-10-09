@@ -1,6 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 
 * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+h3 {
+    color: blueviolet;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color:aliceblue;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+.show a {
+	display: block;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	color:aliceblue;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color:aliceblue;
+}
+
+.navigation a:hover {
+	color:aqua;
+	font-weight: 700;
+}
+
+.open a {
+	display: block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+article img {
+    width: 100%;
+}
+
+footer {
+    background-color: blueviolet;
+    padding: 5px;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: aliceblue;
+
+}
+/*
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -8,15 +100,19 @@
 }
 
 body {
-    font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 }
 
 header {
     background-color: blueviolet;
-    padding: 5px;
+    padding: 1.5rem 6rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+}
+
+#menu {
+    display: none; /* hide hamburger button
 }
 
 h1 {
@@ -31,9 +127,16 @@ nav {
 nav a {
     color: aliceblue;
     justify-items: end;
-    padding: 10px;
+    padding: 1rem;
     
 }
+
+nav a:hover {
+    color: aqua;
+    font-weight: 700;
+}
+
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,7 +152,9 @@ article img {
 footer {
     background-color: blueviolet;
     padding: 5px;
-    display: flex;
+    text-align: center;
     justify-content: space-between;
     margin-top: 60px;
+    color: aliceblue;
 }
+*/

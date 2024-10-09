@@ -1,0 +1,76 @@
+@media screen and (min-width: 37.5em) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h1 {
+        color: aliceblue;
+    }
+    
+    header {
+        background-color: blueviolet;
+        padding: 1.5rem 6rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        color: blueviolet;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        color:aliceblue;
+    }
+    
+    .navigation a {
+        color: aliceblue;
+        justify-items: end;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .navigation a:hover {
+        color: aqua;
+        font-weight: 700;
+    }
+
+    #menu {
+		display: none;
+	}
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+        max-width: 70em;
+        margin: 0 auto;
+        padding: 1.5em;
+    }
+    
+    article img {
+        width: 100%;
+    }
+    
+    footer {
+        background-color: blueviolet;
+        padding: 5px;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 60px;
+        color: aliceblue;
+    }
+}
