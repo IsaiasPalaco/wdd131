@@ -12,11 +12,11 @@
     }
 
     h1 {
-        color: aliceblue;
+        color: rgb(255, 255, 255);
     }
     
     header {
-        background-color: blueviolet;
+        background-color: rgb(28, 15, 40);
         padding: 1.5rem 6rem;
         display: flex;
         justify-content: space-between;
@@ -24,22 +24,23 @@
     }
 
     h3 {
-        color: blueviolet;
+        color: rgb(28, 15, 40);
     }
 
     nav {
         display: flex;
         flex-direction: row;
         list-style: none;
-        color:aliceblue;
+        color:rgb(255, 255, 255);
     }
     
     .navigation a {
-        color: aliceblue;
+        color: rgb(255, 255, 255);
         justify-items: end;
         padding: 1rem;
         display: flex;
         flex-direction: row;
+        font-weight: 300;
         
     }
     
@@ -66,11 +67,11 @@
     }
     
     footer {
-        background-color: blueviolet;
+        background-color: rgb(28, 15, 40);
         padding: 5px;
         text-align: center;
         justify-content: space-between;
         margin-top: 60px;
-        color: aliceblue;
+        color: rgb(255, 255, 255);
     }
 }
