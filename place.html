@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mozambique</h1>
+    </header>
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 600px)">
+                <source srcset="images/hero-large.webp" media="(max-width: 1800px)">
+                <img src="images/hero-large.webp" alt="Hero Photo" width="500" height="auto">
+            </picture>
+        </section>
+        <section class="info">
+            <div class="data">
+                <h3>Data</h3>
+                <h2>Data</h2>
+                <p><strong>Area:</strong> 801 590 km sq km</p>
+                <p><strong>Population:</strong> 27.909.798</p>
+                <p><strong>Capital:</strong> Maputo</p>
+                <p><strong>Languages:</strong> Portuguese</p>
+                <p><strong>Currency:</strong> Mozambican Metical</p>
+                <p><strong>Time Zone:</strong> UTC+2</p>
+                <p><strong>Calling Code:</strong> +258</p>
+                <p><strong>Internet TLD:</strong> .mg</p>
+            </div>
+            <div class="weather">
+                <h3>Weather ⛅</h3>
+                <h2>Weather</h2>
+                <div class="icon">
+                    <img src="images/weather-clouds-sun-sunny-icon.svg" alt="Weather icon" class="mobile-weather-icon">
+                </div>
+                <p><strong>Temperature:</strong> 10℃</p>
+                <p><strong>Conditions:</strong> Partly Cloudy</p>
+                <p><strong>Wind:</strong> 5 km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windChill">9.8℃</span></p>
+            </div>
+        </section>         
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🚀 Isaías De Walter Paulo Palaço 🚀 Mozambique</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

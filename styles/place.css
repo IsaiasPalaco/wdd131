@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgba(194, 2, 2, 0.892);
+    border-bottom: 15px solid rgba(255, 242, 0, 0.878);
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-bottom: 0.5rem solid rgba(194, 2, 2, 0.892);
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.data {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.3px solid;
+    border-color: rgba(118, 91, 91, 0.192);
+}
+
+.weather {
+    display: grid;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 3px;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+}
+
+.icon {
+    display: grid;
+    align-items: center;
+    width: 10rem;
+}
+
+h3 {
+    display: none;
+}
+
+
+footer {
+    background-color: rgba(194, 2, 2, 0.892);
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+
+}
+
+
+@media screen and (min-width: 37.5em) {
+    
+    .info {
+        position: absolute;
+        border-radius: 10px;
+        padding: 1rem;
+        width: auto;
+        height: auto;
+        top: 40%;
+    }
+    
+    .data {
+        background-color: rgba(240, 248, 255, 0.945);
+        flex: 1 1 30%;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 3px;
+        transform: translateY(-50%);
+    }
+
+
+    .weather {
+        background-color: rgba(240, 248, 255, 0.945);
+        flex: 1 1 30%;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 3px;
+        transform: translateX(420%);
+    }
+
+    h3 {
+        background-color: rgb(226, 216, 19);
+        padding: 0.5rem;
+        padding-left: 1.5rem;
+        transform: translateX(-10%);
+        margin-bottom: 1rem;
+        display: flex;
+    }
+
+    h2 {
+        display: none;
+    }
+    
+    .icon {
+        display:none;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+}
