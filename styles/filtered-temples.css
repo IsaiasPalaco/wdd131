@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(28, 15, 40);
+    color: aliceblue;
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+h3 {
+    color: rgb(28, 15, 40);
+}
+
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color:aliceblue;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+.show a {
+	display: block;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	color:rgb(255, 255, 255);
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color:aliceblue;
+}
+
+.navigation a:hover {
+	color:aqua;
+	font-weight: 700;
+}
+
+.open a {
+	display: block;
+}
+
+.temple-cards-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+  }
+
+.temple-card {
+	background-color: #e0e0e0;
+	border-radius: 8px;
+	padding: 16px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .temple-card img {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.782);
+	width: 400px;
+	height: 300px;
+	object-fit: cover;
+	margin-top: 1rem;
+  }
+
+
+
+footer {
+    background-color: rgb(28, 15, 40);
+    padding: 5px;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: aliceblue;
+
+}
+
+
