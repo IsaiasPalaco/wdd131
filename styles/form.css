@@ -11,7 +11,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/*----------- HEADER --------------*/
 header, footer {
     padding: .5rem 2%;
     background-color: #d58936;
@@ -142,7 +141,7 @@ textarea {
     flex-direction: column;
 }
 
-/* 64em is also 1028px (if basefont is 16px) */
+
 @media only screen and (min-width: 64rem) {
 
     header, nav, main, footer {
@@ -154,7 +153,6 @@ textarea {
 
 @media only screen and (min-width: 35rem) {
 
-
         nav ul {
             display: flex;
             margin-left: 2%;
@@ -162,12 +160,10 @@ textarea {
         nav ul li {border: none;}
         nav ul li a{padding: .5rem 2rem;}
         nav ul li a:hover {background-color: firebrick;}
-    
         
     } 
 
 @media only screen and (min-width: 35rem) {
-
 
     nav ul {
         display: flex;
@@ -176,9 +172,9 @@ textarea {
     nav ul li {border: none;}
     nav ul li a{padding: .5rem 2rem;}
     nav ul li a:hover {background-color: firebrick;}
-
     
 } 
+
 
 
 
