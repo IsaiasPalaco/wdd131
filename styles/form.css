@@ -36,7 +36,9 @@ main {
     background-color: #F9F7F3;
 }
 
-
+.review legend {
+    color: #d58936;
+}
 
 .review label {
     display: block;
@@ -64,6 +66,7 @@ main {
 
 textarea {
     width: 100%;
+    max-width: 400px;
     height: 6rem;
     padding: .75rem;
     margin-bottom: 16px;
@@ -88,14 +91,19 @@ textarea {
 
 .review div {
     padding-top: 1rem;
-    color: #000000;
+    color: #d58936;
     font-size: .9rem;
     font-weight: 700;
 }
 
 .review input[type="checkbox"]
 {
+    display: flex;
+	align-items: center;
     margin-left: 10px;
+    width: 25px;
+	height: 25px;
+    
 }
 
 .review input[type="radio"] {
@@ -103,6 +111,7 @@ textarea {
 	position: relative;
 	caret-color: #eddea4;
 }
+
 
 .stars {
 	display: flex;
@@ -151,29 +160,6 @@ textarea {
     
 } 
 
-@media only screen and (min-width: 35rem) {
-
-        nav ul {
-            display: flex;
-            margin-left: 2%;
-        }
-        nav ul li {border: none;}
-        nav ul li a{padding: .5rem 2rem;}
-        nav ul li a:hover {background-color: firebrick;}
-        
-    } 
-
-@media only screen and (min-width: 35rem) {
-
-    nav ul {
-        display: flex;
-        margin-left: 2%;
-    }
-    nav ul li {border: none;}
-    nav ul li a{padding: .5rem 2rem;}
-    nav ul li a:hover {background-color: firebrick;}
-    
-} 
 
 
 
