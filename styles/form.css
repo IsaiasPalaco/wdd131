@@ -64,6 +64,22 @@ main {
     appearance: none;
 }
 
+.review input:required {
+  border-right: solid 5px red;
+}
+
+.review input:required:valid {
+  border-right: solid 5px rgb(57, 178, 244);
+}
+
+.review select:required {
+  border-right: solid 5px red;
+}
+
+.review select:required:valid {
+  border-right: solid 5px rgb(57, 178, 244);
+}
+
 textarea {
     width: 100%;
     max-width: 400px;
@@ -98,18 +114,15 @@ textarea {
 
 .review input[type="checkbox"]
 {
-    display: flex;
-	align-items: center;
-    margin-left: 10px;
     width: 25px;
-	height: 25px;
-    
+	  height: 25px;
 }
+
 
 .review input[type="radio"] {
     display: none;
-	position: relative;
-	caret-color: #eddea4;
+	  position: relative;
+	  caret-color: #eddea4;
 }
 
 
@@ -143,12 +156,6 @@ textarea {
 }
 
 
-
-
-.features {
-    display: flex;
-    flex-direction: column;
-}
 
 
 @media only screen and (min-width: 64rem) {

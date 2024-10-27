@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Counter for review submissions
+
 if (localStorage.getItem('reviewCount') === null) {
     localStorage.setItem('reviewCount', 0);
 }

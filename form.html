@@ -17,12 +17,12 @@
         <form method="get" action="review.html" class="review">
             <fieldset>
                 <legend>Give us your review</legend>
-                <div>Product Name</div>
+                <div>Product Name *</div>
                 <select id="productName" name="productName" required>
                     <option value="" disabled selected>Select a Product... &#9662;</option>
                 </select>
 
-                <div>Overall Rating</div>
+                <div>Overall Rating *</div>
                 <div class="stars">
                     <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
                     <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
@@ -35,16 +35,16 @@
                 <input type="date" id="installationDate" name="installationDate" required>
 
                 <div class="checked">Useful Features</div>
-                <label><input type="checkbox"  value="yes">Durability</label>
-                <label><input type="checkbox"  value="yes">Ease of Use</label>
-                <label><input type="checkbox"  value="yes">Perfomance</label>
-                <label><input type="checkbox"  value="yes">Design</label>
+                <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
+                <label><input type="checkbox" id="use" name="use" value="yes">Ease of Use</label>
+                <label><input type="checkbox" id="perfomance" name="perfomance" value="yes">Perfomance</label>
+                <label><input type="checkbox" id="design" name="design"  value="yes">Design</label>
                 
 
-                <div>Written Review</div>
+                <div>Written Review (Optional)</div><span></span>
                 <textarea id="review" name="review"></textarea>
 
-                <div>User Name</div>
+                <div>User Name (Optional)</div>
                 <input type="text" id="userName" name="userName">
 
                 <input type="submit" value="Post Review">
