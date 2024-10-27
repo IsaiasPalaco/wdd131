@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Isaías Palaço</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals by Isaías Palaço">
+    <meta name="author" content="Isaías Palaco">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="review">
+            <fieldset>
+                <legend>Give us your review</legend>
+                <div>Product Name</div>
+                <select id="productName" name="productName" required>
+                    <option value="" disabled selected>Select a Product... &#9662;</option>
+                </select>
+
+                <div>Overall Rating</div>
+                <div class="stars">
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div>
+
+                <div>Date of Installation</div>
+                <input type="date" id="installationDate" name="installationDate" required>
+
+                <div>Useful Features</div>
+                <label><input type="checkbox" name="editing" value="yes">Durability</label>
+                <label><input type="checkbox" name="code" value="yes">Ease of Use</label>
+                <label><input type="checkbox" name="process" value="yes">Perfomance</label>
+                <label><input type="checkbox" name="client" value="yes">Design</label>
+
+                <div>Written Review</div>
+                <textarea id="review" name="review"></textarea>
+
+                <div>User Name</div>
+                <input type="text" id="userName" name="userName">
+
+                <input type="submit" value="Post Review">
+
+            </fieldset>
+
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🚀 Isaías De Walter Paulo Palaço 🚀 Mozambique</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
