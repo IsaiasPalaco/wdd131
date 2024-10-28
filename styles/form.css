@@ -23,6 +23,16 @@ h1, p {
     text-align: center;
 }
 
+.confirmation {
+  margin: 0;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  background-color: #2033c3;
+  width: 100%;
+  padding: .5rem 2%;
+}
+
 main {
     padding: 0 2%;
     min-height: 20rem;
@@ -160,7 +170,7 @@ textarea {
 
 @media only screen and (min-width: 64rem) {
 
-    header, nav, main, footer {
+    header, nav, main, footer, .confirmation {
         max-width: 64rem;
         margin:auto;
     }
