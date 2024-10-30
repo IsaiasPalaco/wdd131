@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Explore Mozambique</title>
+    <link rel="stylesheet" href="styles/final.css">
+    <script src="scripts/final.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="logo">TS</h1>
+        <button type="button" id="menu"></button>
+        <nav class="navigation" id="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="tours.html">Tours & Packages</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="form-text">Client Review Form</h1>
+        <form method="get" action="thanks.html" class="wf1">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label>Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Review Information</legend>
+                <label>Destination
+                    <select name="destination" id="destination" required>
+                        <option value="">Please Select ▾</option>
+                    </select>
+                </label>
+                <label>Review <textarea name="review" required></textarea></label>
+            </fieldset>
+
+            <input type="submit" value="Send Review">
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🚀 Isaías De Walter Paulo Palaço 🚀 Mozambique</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

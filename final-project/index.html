@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Tourism</title>
+    <meta name="description" content="Country Page">
+    <meta name="author" content="Isaías Palaco">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/final.css">
+    <script src="scripts/final.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="logo">TS</h1>
+        <button type="button" id="menu"></button>
+        <nav class="navigation" id="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="tours.html">Tours & Packages</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/hero.webp" media="(max-width: 600px)">
+                <source srcset="images/hero.webp" media="(max-width: 1800px)">
+                <img src="images/hero.webp" alt="Beautiful landscape of Mozambique" class="hero-image">
+            </picture>
+            <div class="hero-text">
+                <h1>Welcome to Mozambique</h1>
+                <p>Discover the beauty and cultural richness of Mozambique.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🚀 Isaías De Walter Paulo Palaço 🚀 Mozambique</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

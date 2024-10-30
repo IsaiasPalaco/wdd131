@@ -84,7 +84,9 @@ footer {
 
 
 
-@media screen and (min-width: 37.5em) {
+
+
+@media screen and (min-width: 34.5em) {
     
     .info {
         position: absolute;
