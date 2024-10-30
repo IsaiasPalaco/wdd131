@@ -132,7 +132,12 @@ footer {
     }
 
     .destinations h1 {
+        color: firebrick;
         text-align: center;
+      }
+
+      h1 {
+        color: firebrick;
       }
 }
 
@@ -250,14 +255,22 @@ form input, form select, form textarea {
     border-radius: 5px;
 }
 
-form input {
-    margin-top: 1rem;
-
-}
 
 .form-text {
     text-align: center;
 }
+
+.wf1 input[type="submit"] {
+    color: #fff;
+    margin-top: 1rem;
+    background-color: firebrick;
+}
+
+.wf1 fieldset {
+    color: firebrick;
+    font-weight: 700;
+}
+
 
 form button {
     background-color: #333;
@@ -279,6 +292,11 @@ form button:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        border-bottom: .3rem solid  firebrick;;
+    }
+
+    h1, h2 {
+        color: firebrick;
     }
 
     nav ul {
