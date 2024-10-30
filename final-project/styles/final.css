@@ -140,6 +140,11 @@ footer {
       h1 {
         color: firebrick;
       }
+
+      nav ul li a:hover {
+        color: firebrick;
+        font-weight: 600;
+    }
 }
 
 
@@ -254,6 +259,7 @@ form input, form select, form textarea {
     margin-bottom: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
+    appearance: none;
 }
 
 
@@ -302,6 +308,7 @@ form input, form select, form textarea {
     }
     nav ul li a:hover {
         color: firebrick;
+        font-weight: 600;
     }
 
     .grid-container {
