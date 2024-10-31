@@ -131,7 +131,7 @@ footer {
         transform: translateX(-50%);
     }
 
-    .destinations h1 {
+    .destinations h1, h2 {
         color: firebrick;
         text-align: center;
       }
